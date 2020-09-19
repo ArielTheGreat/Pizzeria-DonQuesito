@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es_ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DonQuesito</title>
+    <meta name="description" content="Esta es la página web de DonQuesito una Pizzeria
+    ubicada en Madrid, España, tenemos las mejores pizzas al mejor precio.">
+    <meta name="keywords" content="pizza,gratis,económico,barato,4quesos,mozarella,pepperoni">
+    <meta name="author" content="Ariel Rocha Vallejos">
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <div class="parallax">
+        <div id="nav-tab">
+            <a href="#nav-tab"><img src="images/cheese.png"></a>
+            <ul>
+                <li>Inicio</li>
+                <li>Acerca de nosotros</li>
+                <li>Tienda</li>
+                
+            </ul>
+            <img src="images/call.png">
+            902 12 21 22
+            <button id="carritoCompra"></button>
+        </div>
+        <div id="bienvenida">
+            <h1>Bienvenido a DonQuesito</h1>
+            <button id="explorar">Explorar</button>
+        </div>
+    </div>
+    <div id="about-us">
+        <h2>About <span id="red">US</span></h2>
+        <div id="text-about-us">
+        A finales de los años ochenta,<br> Luis Enrique (su fundador)<br> vivió un considerado tiempo en Italia,<br> donde aprendió a preparar pizzas y pastas,<br> al regresar con la visión y experiencia decidió<br> poner un restaurante en Madrid<br> en el año 1993 y lo llamo ‘‘Pizzería Tío Dan’’<br> cuyo nombre rinde homenaje a su suegro Danilo.<br> Entonces nació el ‘‘Tío Dan’’<br> en un clásico y céntrico lugar de Madrid,<br> ofreciendo su gran especialidad de pizzas, pastas<br> y lasañas.
+        <br><button id="explorarBlack">EXPLORAR</button>
+    </div>   
+    <img id="about-us-image" src="images/masa.jpg">
+    </div>
+    <div id="footer">
+        <h2>Nuestra <span id="yellow">Tienda</span></h2>
+        <ul>
+            <li><button class="seleccion" onclick="mostrarImagenes('todo')">Todas</button></li>
+            <li><button class="seleccion" onclick="mostrarImagenes('carne')">Carne</button></li>
+            <li><button class="seleccion" onclick="mostrarImagenes('vegano')">Veganas</button></li>
+            <li><button class="seleccion" onclick="mostrarImagenes('singluten')">Sin Gluten</button></li>
+            <li><button class="seleccion" onclick="mostrarImagenes('exclusivo')">Exclusivas</button></li>
+        </ul>
+        <p>
+            <img id="glass" src="images/glass.png"> <input id="searchbox" placeholder="Buscar producto.." type="text">
+        </p>
+        <div id="imagesFooter">
+            <div id="todos">
+                <div class="elementImages">
+                    <img class="imagesFooter" src="images/pizzas/carne/bacon-cheeseburguer.webp">
+                    Pizza Bacon Cheeseburguer             15€
+                </div>
+                <div class="elementImages">
+                    <img class="imagesFooter" src="images/pizzas/carne/pizza-carne-picada.jpg">
+                    Pizza Carne Picada <br> 13€
+                </div>
+                <div class="elementImages">
+                <img class="imagesFooter" src="images/pizzas/carne/steakhouse.jpg">
+                Pizza Steakhouse <br> 17€
+                </div>
+                <div class="elementImages">
+                <img class="imagesFooter" src="images/pizzas/veganas/vegana1.jpg">
+                Pizza Vegana Moon<br> 17€
+                </div>
+                <div class="elementImages">
+                <img class="imagesFooter" src="images/pizzas/veganas/vegana2.jpg">
+                Pizza Vegana Mars<br>20€
+                </div>
+                <div class="elementImages">
+                <img class="imagesFooter" src="images/pizzas/veganas/vegana3.jpg">
+                Pizza Vegana Venus<br>19€
+                </div>
+                <div class="elementImages">
+                <img class="imagesFooter" src="images/pizzas/exclusivas/exclusiva2.jpg">
+                Pizza Di La Casa<br> 23€
+                </div>
+                <div class="elementImages">
+                <img class="imagesFooter" src="images/pizzas/exclusivas/exclusiva3.jpg">
+                Pizza BravySweet<br> 23€
+                </div>
+                <div class="elementImages">
+                <img class="imagesFooter" src="images/pizzas/exclusivas/pizza-sandwich.jpg">
+                Pizza Big Papa<br> 24€
+                </div>
+            </div>
+            <div id="carne">
+                <div class="elementImages">
+                    <img class="imagesFooter" src="images/pizzas/carne/bacon-cheeseburguer.webp">
+                    Pizza Bacon Cheeseburguer             15€
+                </div>
+                <div class="elementImages">
+                    <img class="imagesFooter" src="images/pizzas/carne/pizza-carne-picada.jpg">
+                    Pizza Carne Picada <br> 13€
+                </div>
+                <div class="elementImages">
+                <img class="imagesFooter" src="images/pizzas/carne/steakhouse.jpg">
+                Pizza Steakhouse <br> 17€
+                </div>
+            </div>
+            <div id="vegano">
+                <div class="elementImages">
+                    <img class="imagesFooter" src="images/pizzas/veganas/vegana1.jpg">
+                    Pizza Vegana Moon<br> 17€
+                    </div>
+                    <div class="elementImages">
+                    <img class="imagesFooter" src="images/pizzas/veganas/vegana2.jpg">
+                    Pizza Vegana Mars<br>20€
+                    </div>
+                    <div class="elementImages">
+                    <img class="imagesFooter" src="images/pizzas/veganas/vegana3.jpg">
+                    Pizza Vegana Venus<br>19€
+                    </div>
+            </div>
+            <div id="singluten">
+                <div class="elementImages">
+                    <img class="imagesFooter" src="images/pizzas/veganas/vegana1.jpg">
+                    Pizza Vegana Moon SinGluten 20€
+                    </div>
+                    <div class="elementImages">
+                    <img class="imagesFooter" src="images/pizzas/veganas/vegana2.jpg">
+                    Pizza Vegana Mars SinGluten 24€
+                    </div>
+                    <div class="elementImages">
+                    <img class="imagesFooter" src="images/pizzas/veganas/vegana3.jpg">
+                    Pizza Vegana Venus SinGluten 25€
+                    </div>
+                </div>
+            <div id="exclusiva">
+                <div class="elementImages">
+                    <img class="imagesFooter" src="images/pizzas/exclusivas/exclusiva2.jpg">
+                    Pizza Di La Casa<br> 23€
+                </div>
+                <div class="elementImages">
+                    <img class="imagesFooter" src="images/pizzas/exclusivas/exclusiva3.jpg">
+                    Pizza BravySweet<br> 23€
+                </div>
+                <div class="elementImages">
+                    <img class="imagesFooter" src="images/pizzas/exclusivas/pizza-sandwich.jpg">
+                    Pizza Big Papa<br> 24€
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

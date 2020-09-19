@@ -1,0 +1,194 @@
+#nav-tab{
+    background-color: black;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding:25px;
+}
+ul,li{
+    color:white;
+    display: inline;
+    margin:0 1em;
+}
+#carritoCompra{
+    width: 4.5em;
+    margin-left: 2em;
+    border:2px solid white;
+    background: black;
+    color:white;
+    height: 1.2em;
+    border-radius: 6px;
+}
+#carritoCompra:hover{
+    cursor: pointer;
+    background-color: white;
+
+}
+li:hover{
+    color:yellow;
+    cursor: pointer;
+    -webkit-box-shadow: 9px 10px 108px -9px rgba(252,255,158,1);
+-moz-box-shadow: 9px 10px 108px -9px rgba(252,255,158,1);
+box-shadow: 9px 10px 108px -9px rgba(252,255,158,1);
+}
+.parallax{
+    background-image: url("../images/pizza.jpg");
+
+  /* Set a specific height */
+  height: 70em;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#red{
+    color:#cc0000;
+}
+
+h1{
+    color:white;
+    font-size: 5em;
+    margin-left: 1.1em;
+}
+h2{
+    font-size: 3em;
+}
+#explorar{
+    border:2px solid white;
+    border-radius: 6px;
+    background: rgba(0,0,0,0);
+    color:white;
+    margin-left: 21%;
+    font-size: 3em;
+    padding:15px;
+}
+#explorar:hover{
+    cursor: pointer;
+    background: white;
+    color: black;
+    border:white;
+    padding:15px;
+}
+#bienvenida{
+    margin-top: 12%;
+}
+#about-us{
+    background-color: white;
+    padding: 20px 300px 90px 200px;
+    font-size: 1.5em;
+}
+#about-us-image{
+    margin-left: 57%;
+    transition:1s;
+    margin-top:-50em;
+}
+#about-us-image:hover{
+    -webkit-box-shadow: -46px -34px 41px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -46px -34px 41px -2px rgba(0,0,0,0.75);
+    box-shadow: -46px -34px 41px -2px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition:2s;
+}
+#text-about-us{
+    display: inline;
+    font-size: 1.5em;
+}
+#explorarBlack{
+    color:black;
+    border:2px solid black;
+    font-size: 1em;
+    padding:15px;
+    border-radius: 6px;
+    background: rgba(0,0,0,0);
+    margin-top: 2em;
+}
+#explorarBlack:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+    border:black;
+    padding:15px;
+    margin-top: 2em;
+}
+#footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+#yellow{
+    color:yellow;
+}
+.seleccion{
+    border:2px solid white;
+    border-radius: 6px;
+    background: rgba(0,0,0,0);
+    color:white;
+    margin-left: 3em;
+    font-size: 2em;
+    padding:15px;
+}
+.seleccion:hover{
+    cursor: pointer;
+    background: white;
+    color: black;
+    border:white;
+    padding:15px;
+}
+#searchbox{
+    border-radius:0px 5px 5px 0px;
+    height: 2em;
+    width: 40em;
+    margin:3em;
+}
+#glass{
+    margin-right: -3.35em;
+    margin-bottom: -0.82em;
+    border:2px solid grey;
+}
+#glass:hover{
+    cursor: pointer;
+}
+.imagesFooter{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    width: 100%; 
+    transition: 0.5s all ease-in-out; 
+}
+.imagesFooter:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.elementImages{
+    float: left;
+    border:2px solid silver;
+    height: 550px;
+    width: 450px;
+    margin:2em 2.2em;
+    background:white;
+    font-size: 2.5em;
+    color: black;
+    overflow: hidden;
+}
+#imagesFooter{
+    background: black;
+    overflow:auto;
+}
+#todos{
+    display: none;
+}
+#carne{
+    display: none;
+}
+#vegano{
+    display: none;
+}
+#singluten{
+    display: none;
+}
+#exclusiva{
+    display: none;
+}
